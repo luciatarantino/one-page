@@ -1,0 +1,135 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: aqua;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 3rem;
+}
+
+div{
+    height: 100vh;
+    position: relative;
+}
+
+#home{
+
+    background: #fd91a6;
+}
+
+#chi{
+
+    background: #3e8120;
+}
+
+#servizi{
+
+    background: #6f2386;
+}
+
+#contatti{
+
+    background: #810d3e;
+}
+
+h2{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav{
+   position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    z-index: 3;
+    background: #1b1464;
+    display: none;
+
+}
+
+
+nav ul{
+    padding:0;
+    list-style: none;
+    margin: 0;
+    text-transform: uppercase;
+    position: absolute;
+   top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+nav a{
+    color:#fd91a6;
+    text-decoration: none;
+
+}
+
+nav .chiudi{
+    position: absolute;
+    top:25px;
+    right:25px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/closeblue.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: yellow;
+    cursor:pointer;
+    border-radius: 50%;
+    background-size: 50%;
+}
+
+body .apri{
+    position: fixed;
+    top:25px;
+    right:25px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/burguerblue.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fd91a6;
+    background-size: 90%;
+    cursor:pointer;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+body .apri:hover{
+
+    background-image: url(../img/burguerpink.png);
+    background-color: #1b1464;
+}
+
+#servizi h2{
+    top:10%;
+}
+
+
+#servizi{
+    padding-top: 11%;
+}
+
+#servizi video{
+    display: block;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h3{
+  text-align: center;
+}
+
+h3 span{
+  cursor: pointer;
+  color: #FFF82A;
+}
